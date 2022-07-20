@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Raiting</title>
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
+        <!-- ESTILOS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;600;700;800&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container" id="">
+            <!-- CARD ONE -->
+            <div class="card" id="div-container">
+                <span class="star-content">
+                    <img src="/images/icon-star.svg" alt="">
+                </span>
+                <h2 class="title">
+                    How did we do?
+                </h2>
+                <p class="p-container">
+                    Please let us know how we did with your support request.
+                    All feedback is appreciated to help us
+                    improve our offering
+                </p>
+                <div class="raiting-container" id="raiting-select">
+                    <button class="el-1" id="el-raiting-1" value="1" name="btn1">1</button>
+                    <button class="el-1" id="el-raiting-2" value="2" name="btn2">2</button>
+                    <button class="el-1" id="el-raiting-3" value="3" name="btn3">3</button>
+                    <button class="el-1" id="el-raiting-4" value="4" name="btn4">4</button>
+                    <button class="el-1" id="el-raiting-5" value="5" name="btn5">5</button>
+                </div>
+                <button class="el-2" id="btn-submit">SUBMIT</button>
+            </div>
+            <!-- FINAL SECCION CARD ONE -->
+            <!-- CARD TWO -->
+            <div class="card-second" id="card-second">
+                <img class="img-second" src="/images/illustration-thank-you.svg" alt="">
+                <h3 class="select-parr" id="el-interarct">
+                    You select <span id="cambiarLetra"></span> out of 5
+                </h3>
+                <h1 class="title-second">
+                    Thank you!
+                </h1>
+                <p class="p-container-two">
+                    We appreciate you taking the time to give a rating. <br>
+                    If you ever need more support don't hesitate to <br>
+                    get in touch
+                </p>
+            </div>
+            <!-- FINAL SECCION CARD TWO -->
+        </div>
+
+        <!-- script -->
+        <script src="/app.js"></script>
+    </body>
+
+</html>

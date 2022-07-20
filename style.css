@@ -1,0 +1,153 @@
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --font-main: 'Overpass', sans-serif;
+    --newColor: #303a47;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 1px solid black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: var(--Very-Dark-Blue);
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-main);
+    font-size: 15px;
+}
+
+.card {
+    /* width: calc(92% - 3%); */
+    border-radius: 1rem;
+    background-color: var(--Dark-Blue);
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 365px;
+
+}
+
+.star-content {
+    display: flex;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    padding: .6rem;
+    margin: 1.5rem;
+    border-radius: 100px;
+    background-color: var(--newColor);
+
+}
+
+.title {
+
+    color: var(--White);
+    margin: 0 0rem 0 1.7rem;
+    font-weight: 700;
+}
+
+.p-container {
+    margin: 1.2rem 1.5rem 0 1.5rem;
+    color: var(--Light-Grey);
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+.raiting-container {
+    margin: 1.2rem 1.5rem 0 1.5rem;
+    display: flex;
+    gap: 1rem;
+
+}
+
+.el-1 {
+    font-weight: 400;
+    flex-grow: 1;
+    cursor: pointer;
+    border: 0;
+    border-radius: 1000px;
+    text-align: center;
+    padding: .5rem;
+    color: var(--White);
+    background-color: var(--newColor);
+}
+
+.el-1:hover {
+    background-color: var(--Medium-Grey);
+}
+
+.el-1:focus {
+    background-color: var(--Orange);
+}
+
+.el-2 {
+    color: var(--White);
+    display: block;
+    background-color: var(--Orange);
+    border: 0;
+    border-radius: 2rem;
+    margin: 1.4rem;
+    padding: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.el-2:hover {
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+/* estilos carta de agradecimiento  */
+
+.card-second {
+    border-radius: 1rem;
+    background-color: var(--Dark-Blue);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    min-width: 365px;
+
+}
+
+.img-second {
+    margin: 2rem;
+    width: 10rem;
+
+}
+
+.select-parr {
+    color: var(--Orange);
+    background-color: var(--newColor);
+    padding: .5rem 2rem;
+    border-radius: 50px;
+    margin: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.title-second {
+    color: var(--White);
+    margin-top: 1rem;
+    font-weight: 700;
+
+}
+
+.p-container-two {
+    color: var(--White);
+    text-align: center;
+    line-height: 1.6rem;
+    font-weight: 400;
+    margin: 2rem;
+}
